@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registro</title>
+	<link rel="stylesheet" href="css/estilo_registro.css" type="text/css" media="all" />
+</head>
+    <body>
+        <header>
+            <h1>Registro</h1>
+        </header>
+            <form>
+            <div>
+            <fieldset>
+                <legend>Datos Personales</legend>
+                <p>Nombre: <input type="text" name="nombre" placeholder="Nombre"></p>
+                <p>Apelldios: <input type="text" name="apellidos" placeholder="Apellidos"></p>
+                <p>Email: <input type="email" name="email" placeholder="@"></p>
+            </fieldset>
+            <fieldset>
+                <legend>Datos Usuario</legend>
+                <p>Usuario: <input type="text" name="usuario" placeholder="Usuario"></p>
+                <p>Contraseña: <input type="text" name="contraseña" placeholder="Contraseña"></p>
+                <p>Vuelva a escribir la Contraseña: <input type="text" name="comprobacion" placeholder="Contraseña"></p>
+
+            </fieldset>
+            <fieldset>
+                <legend>Datos Deportivos</legend>
+                <p>Estatura (metros) <input type="text" name="estatura" placeholder="ej: 1,70"></p>
+                <p>Peso (kilos) <input type="text" name="peso" placeholder="ej: 65,2"></p>
+                <p>Frecuencia Cardiaca:</p>
+                    <ul>
+                        <li>Sprint <input type="text" name="sprint"></li>
+                        <li>Velociada <input type="text" name="velocidad"></li>
+                        <li>Cardio <input type="text" name="cardio"></li>
+                        <li>Fitness <input type="text" name="fitness"></li>
+                        <li>Sencillo <input type="text" name="sencillo"></li>
+                    </ul>
+                <p>Tipo de corredor:
+                <select name="tipo">
+                    <option>Corredor Casual</option>
+                    <option>Corredor de medio fondo</option>
+                    <option>Corredor de fondo</option>
+                    <option>Corredor de trail</option>
+                </select>
+            </p>
+            </fieldset> 
+            </div>
+            <div id="botones">
+                <input type="submit" value="Enviar" name="enviar">
+                <input type="reset" value="Cancelar" name="cancelar"> 
+            </div>          
+            </form>
+            <p><a id="volver" href="inicio.html">Volver al inicio</a></p>
+    </body>
+</html>

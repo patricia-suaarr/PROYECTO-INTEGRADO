@@ -1,0 +1,177 @@
+/*https://colorhunt.co/palette/ea5c2bff7f3ff6d86095cd41*/
+/*https://colorhunt.co/palette/f76e11ff9f45ffbc80fc4f4f*/
+body{
+    background-color: #FF9F45;
+}
+header{
+    background-color: #F76E11;
+    color: #FFBC80;
+    text-align: center;
+    padding: 20px;
+    font-size: 25px;
+}
+form{
+    display: flex;
+    flex-direction: row;
+    margin-left: 23%;
+    margin-right: 20%;
+    margin-top: 4%;
+    margin-bottom: 2%;
+}
+fieldset{
+    border-color: #F76E11 ;
+    color:#593821;
+    margin: 20px;
+    width: 50%;
+}
+fieldset:nth-of-type(1),fieldset:nth-of-type(2){
+    padding-top: 13%;
+}
+p{
+    text-align: center;
+}
+p>input{
+    display: block;
+    margin-left: 14%;
+}
+input:focus{
+    background: #FFBC80;
+  }
+ul>li{
+    list-style: none;
+}
+div{
+    display: flex;
+    flex-direction: row;
+}
+#botones{
+   position: absolute;
+   top: 700px;
+   left: 43%;
+}
+#volver{
+    padding: 15px;
+    border: #593821 solid 1px;
+    background-color: #F76E11;
+    border-radius: 10px;
+    text-decoration: none;
+    color: #FFBC80;
+    margin-bottom: 5px;
+}
+#volver:hover{
+    padding: 18px;
+    background-color: #FFBC80;
+    border-radius: 15px;
+    color: #F76E11;
+}
+@media (max-width: 1400px){
+    @keyframes fake {
+        from {
+            opacity: 1;
+        }
+        to {
+            opactity: 1
+        }
+      }
+    form{
+        margin-left: 10%;
+        margin-right: 10%;
+        margin-top: 2%;
+        margin-bottom: 1%;
+    }
+    fieldset{
+        margin: 10px;
+        width: 50%;
+    }
+}
+
+@media (max-width: 1000px){
+    @keyframes fake {
+        from {
+            opacity: 1;
+        }
+        to {
+            opactity: 1
+        }
+      }
+    form{
+        margin-left: 5%;
+        margin-right: 5%;
+        margin-top: 1%;
+        margin-bottom: 0.5%;  
+    }
+}
+
+
+@media (max-width: 880px){
+    @keyframes fake {
+        from {
+            opacity: 1;
+        }
+        to {
+            opactity: 1
+        }
+      }
+    form{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 0.5%;
+        margin-bottom: 0.25%;
+    }
+    fieldset{
+        border-color: #F76E11 ;
+        color:#593821;
+        width: 110%;
+        padding-left: 12%;
+        margin-left: 12%;
+    }
+    fieldset:nth-of-type(1),fieldset:nth-of-type(2){
+        padding-top: 10%;
+    }
+    p>input{
+        margin-left: 26%;
+    }
+    div{
+        flex-direction: column;
+    }
+    #botones{
+        position: absolute;
+        top:  190%;;
+        left: 43%;
+    }
+}
+@media (max-width: 490px){
+    @keyframes fake {
+        from {
+            opacity: 1;
+        }
+        to {
+            opactity: 1
+        }
+      }
+    form{
+        margin-left: 2.5%;
+        margin-right: 2.5%;
+        margin-top: 0.5%;
+        margin-bottom: 0.25%;
+    }
+    fieldset{
+        border-color: #F76E11 ;
+        color:#593821;
+        width: 100%;
+    }
+    fieldset:nth-of-type(1),fieldset:nth-of-type(2){
+        padding-top: 13%;
+    }
+    div{
+        flex-direction: column;
+    }
+    #botones{
+        position: absolute;
+        top:  190%;;
+        left: 43%;
+    }
+    
+}
+
+
