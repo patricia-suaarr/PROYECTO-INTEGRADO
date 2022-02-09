@@ -24,8 +24,12 @@ fieldset{
     margin: 20px;
     width: 50%;
 }
-fieldset:nth-of-type(1),fieldset:nth-of-type(2){
+fieldset:nth-of-type(1){
     padding-top: 13%;
+}
+fieldset:nth-of-type(2){
+    padding-top: 13%;
+    margin-bottom: 50px;
 }
 p{
     text-align: center;
@@ -46,8 +50,8 @@ div{
 }
 #botones{
    position: absolute;
-   top: 700px;
-   left: 43%;
+   top: 800px;
+   left: 44%;
 }
 #volver{
     padding: 15px;
@@ -56,7 +60,7 @@ div{
     border-radius: 10px;
     text-decoration: none;
     color: #FFBC80;
-    margin-bottom: 5px;
+    margin-top: 10px;
 }
 #volver:hover{
     padding: 18px;
@@ -83,6 +87,11 @@ div{
         margin: 10px;
         width: 50%;
     }
+    #botones{
+        position: absolute;
+        top: 635px;
+        left: 44%;
+     }
 }
 
 @media (max-width: 1000px){
@@ -102,8 +111,8 @@ div{
     }
 }
 
-
-@media (max-width: 880px){
+/*controlar 800*/
+@media (max-width: 865px){
     @keyframes fake {
         from {
             opacity: 1;
@@ -113,10 +122,34 @@ div{
         }
       }
     form{
-        margin-left: 2.5%;
+        margin-left: 4%;
+        margin-right: 4%;
+        margin-top: 0.8%;
+        margin-bottom: 0.3%;
+    }
+    fieldset{
+        margin: 10px;
+        width: 45%;
+    }
+    p>input{
+        margin-left: 4%;
+    }
+}
+
+@media (max-width: 650px){
+    @keyframes fake {
+        from {
+            opacity: 1;
+        }
+        to {
+            opactity: 1
+        }
+      }
+    form{
+        margin-left: 8%;
         margin-right: 2.5%;
         margin-top: 0.5%;
-        margin-bottom: 0.25%;
+        margin-bottom: 0.50%;
     }
     fieldset{
         border-color: #F76E11 ;
@@ -136,11 +169,15 @@ div{
     }
     #botones{
         position: absolute;
-        top:  190%;;
-        left: 43%;
+        top:  1070px;
+        left: 44%;
+    }
+    fieldset:nth-of-type(3){
+        padding-bottom: 10px;
+        margin-bottom: 65px;
     }
 }
-@media (max-width: 490px){
+@media (max-width: 500px){
     @keyframes fake {
         from {
             opacity: 1;
@@ -168,8 +205,8 @@ div{
     }
     #botones{
         position: absolute;
-        top:  190%;;
-        left: 43%;
+        top:  1095px;
+        left: 44%;
     }
     
 }
